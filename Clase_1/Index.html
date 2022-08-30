@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bienvenidos al lado oscuro</title>
+    </head>
+
+    <body>
+
+        <!--Es un comentarioS-->
+        <!-- bxbxbx -->
+        <h1>Soy un H1</h1>
+        <h2>Soy un H2</h2>
+        <h3>Soy un H3</h3>
+        <h4>Soy un H4</h4>
+        <h5>Soy un H5</h5>
+        <h6>Soy un H6</h6>
+
+        <p>  Soy una etiqueta P y dentro mio vas a colocar parrafos</p>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, at! Quae debitis excepturi eos eaque inventore doloremque cumque, similique sapiente a, asperiores maiores ut suscipit quo animi magnam! Obcaecati, itaque!</p>
+   
+        <h2> Lista desordenada</h2>
+
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+
+        <h2> Lista ordenada</h2>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+
+        <h2> Listas Anidadas</h2>
+        <ol>
+            <li>
+                Soy un elemento de una lista ordenada y adentro tengo otra lista
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ul> 
+            </li>
+            <li>
+                Yo TAMBIEN tengo una lista adentro
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </li>
+        </ol>
+        <h2> Tablas</h2>
+        <table>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>9hs</td>
+                <td>8hs</td>
+                <td>7hs</td>
+                <td>6hs</td>
+                <td>5hs</td>
+            </tr>
+            <tr>
+                <td>9hs</td>
+                <td>8hs</td>
+                <td>7hs</td>
+                <td>6hs</td>
+                <td>5hs</td>
+            </tr>
+        </table>
+
+
+        <h2>Formularios</h2>
+        <!--Input de tipo "text" -->
+
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" placeholder="Ingrese su nombre"/>
+        <br>
+        <br>
+
+        <label for="Apellido" > Apellido:</label>
+        <input type="text" id="Apellido"  placeholder="Ingrese su apellido"/>
+
+        <br/>
+        <br/>
+
+        <!--Importante: La etiqueta input va acompañnada de una etiquetea label. el "for" del label siempre coincide con el "id" del input -->
+        <!--input de tipo "number"-->
+
+        <label for="edad"> Edad</label>
+        <input type="number" id="edad" placeholder="Ingrese su edad" />
+        <br/>
+        <br/>
+        <!--input de tipo "email"-->
+        <label for="email"> Email</label>
+        <input type="email" id="email" placeholder="Ingrese su email" />
+        
+        <br/>
+        <br/>
+        <!--input de tipo "password"-->
+        <label for="pass"> Contraseña</label>
+        <input type="password" id="pass" placeholder="Ingrese su Contraseña" />
+        required
+
+        <br/>
+        <br/>
+        <!--input de tipo "Checkbox"-->
+        <label for="Checkbox1"> Soy un input de tipo Checkbox 1</label>
+        <input type="Checkbox" id="Checkbox1" />
+
+        <br/>
+        <br/>
+        <label for="Checkbox2"> Soy un input de tipo Checkbox 2</label>
+        <input type="Checkbox" id="Checkbox2" checked/>
+
+        <br/>
+        <br/>
+        <!--input de tipo "Radio"-->
+
+        <h2>Gusto de helado favorito:</h2>
+
+        <input type="radio" id="chocolate" name="gustos"/>
+        <label for="chocolate"> Chocolate</label>
+
+        <input type="radio" id="Dulce-de-leche" name="gustos"/>
+        <label for="Dulce-de-leche"> Dulce de leche</label>
+
+        <input type="radio" id="menta-granizada" name="gustos"/>
+        <label for="menta-granizada"> Menta Granizada</label>
+
+        <br/>
+        <br/>
+
+        <!--select-->
+        ¿Jugamos?:
+        <select>
+            <option value="piedra"> Piedra</option>
+            <option value="papel"> Papel</option>
+            <option value="tijera"> Tijera</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <!--etiqueta textarea-->
+        
+        <label for="texto"> Soy un area de texto </label> <br />
+        <textarea id="texto" cols="30" rows="10"></textarea>   
+        
+        <!--Botones-->
+
+        <br/>
+        <br/>
+        <input type="submit" value="Soy un boton" />
+
+
+        
+
+        <button type="submit">Soy otro boton</button>
+
+        <form>
+
+
+        </form>
+    </body>
+</html>
